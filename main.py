@@ -83,7 +83,7 @@ def main():
         elif command == "phone":
             print(phone_username(args, contacts))
         elif command == "all":
-            print(all())
+            print(all(contacts))
         else:
             print("Invalid command.")
 
